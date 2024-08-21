@@ -1,3 +1,9 @@
+PATH
+  remote: engines/engine_template
+  specs:
+    engine_template (0.1.0)
+      rails (>= 7.2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -291,6 +297,7 @@ DEPENDENCIES
   brakeman
   capybara
   debug
+  engine_template!
   importmap-rails
   jbuilder
   pg (~> 1.1)
